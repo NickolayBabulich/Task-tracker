@@ -33,7 +33,7 @@ Endpoints:
 ## Установка:
 
 - Для начала работы с проектом клонируйте репозиторий:
-    - ```git clone https://github.com/NickolayBabulich/tracker.git```
+    - ```git clone https://github.com/NickolayBabulich/Task-tracker.git```
 - Произвести установку Docker (https://docs.docker.com/get-docker/)
 - Перейдите в корневую директорию проекта
 - Запустить проект командой ```docker compose up```
