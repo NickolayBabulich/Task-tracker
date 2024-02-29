@@ -1,0 +1,74 @@
+[
+  {
+    "model": "tracker.performer",
+    "pk": 1,
+    "fields": {
+      "name": "Джеимс Хетфилд",
+      "removed_tasks_count": 1
+    }
+  },
+  {
+    "model": "tracker.performer",
+    "pk": 2,
+    "fields": {
+      "name": "Фреди Меркьюри",
+      "removed_tasks_count": 1
+    }
+  },
+  {
+    "model": "tracker.performer",
+    "pk": 3,
+    "fields": {
+      "name": "Ричард Блекмор",
+      "removed_tasks_count": 0
+    }
+  },
+  {
+    "model": "tracker.project",
+    "pk": 1,
+    "fields": {
+      "name": "Обслуживание и детейлинг Porsche Panamera, клиент Тонни Старк",
+      "tasks": [
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "model": "tracker.task",
+    "pk": 1,
+    "fields": {
+      "created_date": "2024-02-29T06:50:04Z",
+      "deadline": "2024-04-19T06:59:06Z",
+      "performer": 1,
+      "priority": 1,
+      "title": "Замена тормозных колодок",
+      "comment": "Ставим brembo в круг"
+    }
+  },
+  {
+    "model": "tracker.task",
+    "pk": 2,
+    "fields": {
+      "created_date": "2024-02-29T06:52:18Z",
+      "deadline": "2024-03-13T07:00:00Z",
+      "performer": 2,
+      "priority": 2,
+      "title": "Перетяжка отделки руля",
+      "comment": "Только кожа молодого ягненка"
+    }
+  },
+  {
+    "model": "tracker.task",
+    "pk": 3,
+    "fields": {
+      "created_date": "2024-02-29T06:53:27Z",
+      "deadline": "2024-03-06T00:00:00Z",
+      "performer": 3,
+      "priority": 1,
+      "title": "Полировка фар",
+      "comment": "Полируем до кристального сияния"
+    }
+  }
+]
